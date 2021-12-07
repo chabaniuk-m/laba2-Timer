@@ -15,6 +15,7 @@ public class TimerApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("timer"));
+        // main icon
         Image icon = new Image("main_icon.png");
         stage.getIcons().add(icon);
         stage.setScene(scene);
